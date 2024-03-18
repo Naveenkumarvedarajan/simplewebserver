@@ -1,5 +1,5 @@
 # EX01 Developing a Simple Webserver
-## Date:
+## Date:06/03/2024
 
 ## AIM:
 To develop a simple webserver to serve html pages.
@@ -27,12 +27,66 @@ content = """
 <!DOCTYPE html>
 <html>
 <head>
-<title>My webserver</title>
+<title> Software company </title>
 </head>
 <body>
-<h1>Welcome<h1>
+<center> <h1> Top Five revenue Generating Software Companies </h1> </center>
+<table border="5" cellspacing="13" Cellpadding="13">
+
+<tr>
+<th>Rank</th>
+<th>Company</th>
+<th>sales</th>
+<th>Nationality</th>
+<th>Revenue</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>Microsoft</td>
+<td>57.9</td>
+<td>USA</td>
+<td>100000</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Oracle</td>
+<td>21.0</td>
+<td>USA</td>
+<td>95000</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>SAP</td>
+<td>16.1</td>
+<td>GERMANY</td>
+<td>90000</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Computer Associates</td>
+<td>4.2</td>
+<td>USA</td>
+<td>85000</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Adobe</td>
+<td>3.4</td>
+<td>USA</td>
+<td>80000</td>
+</tr>
+
+
+</table>
+
 </body>
 </html>
+8=(
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -48,8 +102,9 @@ httpd.serve_forever()
 ```
 
 ## OUTPUT:
-![Screenshot (39)](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/6edb714d-791d-4005-a102-7fab23d6a89b)
 ![Screenshot (29)](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/3ff12a11-d68c-493f-8818-a8a83b48d4fd)
+![image](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/2925620f-343e-4643-bd8d-3b29b23d3fc4)
+
 
 
 
