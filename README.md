@@ -1,4 +1,4 @@
-![image](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/9010bab3-87c5-4457-a976-d8c47e354734)# EX01 Developing a Simple Webserver
+
 ## Date:24/02/2024
 
 ## AIM:
