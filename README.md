@@ -1,5 +1,5 @@
-# EX01 Developing a Simple Webserver
-## Date:06/03/2024
+![image](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/9010bab3-87c5-4457-a976-d8c47e354734)# EX01 Developing a Simple Webserver
+## Date:24/02/2024
 
 ## AIM:
 To develop a simple webserver to serve html pages.
@@ -27,66 +27,63 @@ content = """
 <!DOCTYPE html>
 <html>
 <head>
-<title> Software company </title>
+<title>software company</title>
 </head>
 <body>
-<center> <h1> Top Five revenue Generating Software Companies </h1> </center>
-<table border="5" cellspacing="13" Cellpadding="13">
+<center> <h1> Top five revenue generating software companies </h1> </center>
+<table border="5" cellspacing="7" cellpadding="17">
 
 <tr>
-<th>Rank</th>
-<th>Company</th>
+<th>rank</th>
+<th>company</th>
 <th>sales</th>
-<th>Nationality</th>
-<th>Revenue</th>
+<th>nationality</th>
+<th>revenue</th>
 </tr>
 
 <tr>
 <td>1</td>
-<td>Microsoft</td>
-<td>57.9</td>
+<td>microsoft</td>
+<td>57.9c</td>
 <td>USA</td>
 <td>100000</td>
 </tr>
 
 <tr>
 <td>2</td>
-<td>Oracle</td>
-<td>21.0</td>
+<td>oracles</td>
+<td>21.8c</td>
 <td>USA</td>
-<td>95000</td>
+<td>950000</td>
 </tr>
 
 <tr>
 <td>3</td>
 <td>SAP</td>
-<td>16.1</td>
+<td>16.1c</td>
 <td>GERMANY</td>
-<td>90000</td>
+<td>900000</td>
 </tr>
 
 <tr>
 <td>4</td>
 <td>Computer Associates</td>
-<td>4.2</td>
+<td>4.2c</td>
 <td>USA</td>
-<td>85000</td>
+<td>850000</td>
 </tr>
 
 <tr>
 <td>5</td>
 <td>Adobe</td>
-<td>3.4</td>
+<td>3.4c</td>
 <td>USA</td>
 <td>80000</td>
 </tr>
 
-
 </table>
-
 </body>
 </html>
-8=(
 """
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -99,11 +96,13 @@ server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
+
 ```
 
 ## OUTPUT:
-![Screenshot (29)](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/3ff12a11-d68c-493f-8818-a8a83b48d4fd)
-![image](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/2925620f-343e-4643-bd8d-3b29b23d3fc4)
+![Screenshot (40)](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/426311a9-2e06-4205-860c-79cd3f8d1025)
+![image](https://github.com/Naveenkumarvedarajan/simplewebserver/assets/147140428/c343f24c-6259-487a-9da7-b8919f10d296)
+
 
 
 
